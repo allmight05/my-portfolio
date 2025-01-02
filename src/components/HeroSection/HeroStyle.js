@@ -175,17 +175,17 @@ export const ResumeButton = styled.a`
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
-    color:${({ theme }) => theme.white};
+    color:${({ theme }) => theme.black};
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    box-shadow:  20px 20px 60px #1F2634,
+    background: #eeec69;
+    background: linear-gradient(225deg, rgb(235, 231, 14) 0%, rgb(240, 12, 12) 100%);
+    background: -moz-linear-gradient(225deg, rgb(208, 241, 18) 0%, rgb(245, 230, 17) 100%);
+    background: -webkit-linear-gradient(225deg, rgb(250, 246, 26) 0%, rgb(161, 245, 27) 100%);
+    box-shadow:  20px 20px 60pxrgb(101, 105, 82),
     -20px -20px 60px #1F2634;
     &:hover {
         transform: scale(1.05);
